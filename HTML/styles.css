@@ -1,0 +1,57 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border: 1px #555;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li {
+    display: inline;
+   }
+li a {
+    display: block;
+    width: 60px;
+    
+    float: left;
+    margin: 0 30 0 10;
+    padding: 10 10 10 10;
+    
+
+}
+li a:hover:not(.active) {
+    background-color: #79ad34;
+}
+
+.active {
+    background-color: #000;
+}
+.row{
+       
+    height: 150;
+    
+}
+.col-sm-2{
+    background-color: black;
+}
+.col-sm-7{
+    background-color: yellow;
+        
+    margin: 10 10 10 10;
+    padding: 10 10 10 10;
+
+}
+.col-sm-5{
+    background-color: black;
+    font: white;
+}
+.col-sm-6{
+        margin: 20px 0px 0px 80px;
+}
+
+input[type=checkbox], input[type=radio]{
+
+margin: 3px 16px 7px;    
+}

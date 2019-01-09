@@ -1,0 +1,49 @@
+//ask question
+
+<html>
+<head>
+<title>WebAsk</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <?php 
+?>
+<h1>
+<div class="container">
+WebASK
+</div>
+</h1>
+<div class="container">
+<ul>
+  <li><a href="p1.html">Home    </a></li>
+  <li><a href="p2.html">See more</a></li>
+  <li><a href="p3.html">Answer new </a></li>
+  <li><a href="about.html">About    </a></li>
+  <li><a>News    </a></li>
+  <li><a>Contact    </a></li>
+  <li><a >Donation  </a></li>
+</ul>
+</div>
+<div class="col-sm-6">
+<form> Enter your question here... 
+  <br />
+ <textarea rows="3" cols="100" name="question"> </textarea> 
+ <input type="submit">
+</form>
+<?php include 'psql.php';
+$ques = $_REQUEST['question'];
+add_ques($ques);
+?>
+</div>
+       
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
