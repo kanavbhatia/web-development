@@ -1,0 +1,124 @@
+*{
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #f1f7f7;
+    margin: -1em;
+}
+aside{
+    width: 20%;
+    background-color: #4DCCBD;
+    order: 2;
+    margin-top: 3em;
+    color: white;
+    
+}
+main{
+    width: 50%;
+    background-color: white;
+    order: 1;
+    margin-top: 3em;
+    padding: 3em;
+    
+}
+main h2{
+    color: #4DCCBD
+
+}
+main h4{
+    color: #4DCCBD
+
+}
+#mainphoto{
+    position: relative;
+    top: 2em;
+}
+.thumbnail img{
+    height: 1em;
+    width: 1em;
+    filter: invert(100%);
+
+}
+.thumbnailled img{
+    height: 1em;
+    width: 1em;
+    filter: invert(100%);
+    background-color: #d96643;
+
+}
+.title{
+    height: 18em;
+    background-color: #2374AB;
+    text-align: center;
+
+}
+.title img{
+    display: block;
+    margin: 0 auto;
+    height: 8em;
+    width: 8em;
+    border-radius: 50%;
+    filter: grayscale(100%);
+}
+.title h3{
+    
+    font-size: 2em;
+    margin-top: 2em;
+
+}
+.genInfo{
+    height: 10em;
+    background-color: #4DCCBD;
+    margin: 1.1em;
+
+}
+.education{
+    height: 31em;
+    background-color: #4DCCBD;
+    margin: 1.1em;
+
+}
+.interests{
+    height: 11em;
+    background-color: #4DCCBD;
+    margin: 1.1em;
+
+}
+
+.projects{
+    height: 22em;
+    /* background-color: orange; */
+}
+.xp{
+    height: 18em;
+    /* background-color: yellow; */
+    
+}
+.cocurriculum{
+    height: 27em;
+    background-color: white;
+}
+.techSkills{
+    height: 21em;
+    /* background-color: green; */
+}
+@media (max-width: 1025px){
+    aside{
+        width: 100%;
+        /* background-color: #4DCCBD; */
+        order: 1;
+        text-align: center;
+        
+    }
+    main{
+        width: 100%;
+        /* background-color: yellowgreen; */
+        order: 2;
+        
+    } 
+
+}
